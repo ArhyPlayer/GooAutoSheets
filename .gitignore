@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+
+# Secrets — не коммитить!
+.env
+
+# JSON-ключи сервисного аккаунта (содержат private key)
+excel-factory-*.json
+*-credentials*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
