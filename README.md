@@ -20,10 +20,10 @@
 ```
 ┌──────────────────────┐          HTTP/REST         ┌──────────────────────────┐
 │   start_gui.py       │ ─────────────────────────► │  FastAPI (Docker)        │
-│   Tkinter GUI        │ ◄─────────────────────────  │  backend/api.py          │
-│                      │       JSON responses        │  backend/database.py     │
-│   APIClient          │                             │  SQLite  (data/crm.db)   │
-│   ExportService      │                             └──────────────────────────┘
+│   Tkinter GUI        │ ◄───────────────────────── │  backend/api.py          │
+│                      │       JSON responses       │  backend/database.py     │
+│   APIClient          │                            │  SQLite  (data/crm.db)   │
+│   ExportService      │                            └──────────────────────────┘
 │   GoogleSettings     │
 └──────────┬───────────┘
            │
