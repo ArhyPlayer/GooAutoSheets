@@ -209,34 +209,14 @@ python seed_data.py --url http://localhost:8000
 
 **OAuth 2.0 (для создания файлов от имени пользователя):**
 1. [Google Cloud Console](https://console.cloud.google.com/) → API и сервисы → Учётные данные
-
-   ![Шаг 1](screenshots/oAuth_1.png)
-
 2. Создать **OAuth 2.0 Client ID** → тип «Desktop app»
-
-   ![Шаг 2](screenshots/oAuth_2.png)
-   ![Шаг 3](screenshots/oAuth_3.png)
-   ![Шаг 4](screenshots/oAuth_4.png)
-
 3. Скачать JSON, указать путь в настройках GUI
-
-   ![Шаг 5](screenshots/oAuth_5.png)
-   ![Шаг 6](screenshots/oAuth_6.png)
-
 4. При первом экспорте откроется браузер — авторизуйтесь; токен сохранится в `credentials/token_drive.json`
-
-   ![Шаг 7](screenshots/oAuth_7.png)
 
 **Сервисный аккаунт (для записи данных):**
 1. Google Cloud Console → IAM → Сервисные аккаунты → Создать → скачать JSON-ключ
-
-   ![Сервисный аккаунт — шаг 1](screenshots/serv_1.png)
-
 2. Включить **Google Sheets API** и **Google Drive API**
 3. Расшарить целевую папку Drive на email сервисного аккаунта (роль «Редактор»)
-
-   ![Сервисный аккаунт — шаг 2](screenshots/serv_2.png)
-
 4. Указать путь к ключу в настройках GUI
 
 ---

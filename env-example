@@ -4,7 +4,7 @@
 
 # Путь к JSON-ключу сервисного аккаунта Google Cloud.
 # Скачивается в Google Cloud Console → IAM → Сервисные аккаунты → Ключи.
-GOOGLE_CREDENTIALS_PATH=excel-factory-488906-cd544edd406e.json
+GOOGLE_CREDENTIALS_PATH=excel-factory.json
 
 # ID Google Таблицы — часть URL между /d/ и /edit:
 # https://docs.google.com/spreadsheets/d/<ID>/edit
@@ -17,7 +17,7 @@ GOOGLE_SPREADSHEET_ID=your_spreadsheet_id_here
 # Путь к client_secret_*.json (тип «installed»).
 # Скачивается в Google Cloud Console → API и сервисы → Учётные данные →
 # OAuth 2.0 → скачать JSON.
-GOOGLE_OAUTH_CLIENT_SECRET=client_secret_353987013951-dm6ap9v6tvf1hg8i6d3siravbehlfkbh.apps.googleusercontent.com.json
+GOOGLE_OAUTH_CLIENT_SECRET=client_secret.com.json
 
 # Файл для хранения токена пользователя после первой авторизации.
 # Создаётся автоматически; не добавляйте его в git (.gitignore).
